@@ -11,7 +11,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:2200/eureka, http://localhost:2300/eureka, http://localhost:2400/eureka
+      defaultZone: http://localhost:2222/eureka, http://localhost:2223/eureka, http://localhost:2224/eureka
 
 #Logging configuration
 logging:
