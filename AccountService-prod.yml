@@ -1,0 +1,23 @@
+spring:
+  profiles: prod
+  application:
+    name: AccountService
+  datasource:
+    url: jdbc:mysql://localhost:3306/bank-account
+
+server:
+  port: 8230
+
+#transaction:
+#  port: 8002
+
+hystrix:
+  command:
+    default:
+      circuitBreaker:
+        errorThresholdPercentage: 50
+        requestVolumeThreshold: 10
+        sleepWindowInMilliseconds: 30000
+      metrics:
+        rollingStats:
+          timeInMilliseconds: 10000

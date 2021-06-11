@@ -1,0 +1,7 @@
+account:
+  port: 8200
+spring:
+  application:
+    name: TransactionService
+  datasource:
+    url: jdbc:mysql://localhost:3306/bank-transactions

@@ -1,0 +1,5 @@
+account:
+  port: 8400
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/bank-user
