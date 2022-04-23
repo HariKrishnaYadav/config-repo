@@ -1,6 +1,5 @@
 spring:
   datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
     password: root
     username: Krishna@9097
   jpa:
