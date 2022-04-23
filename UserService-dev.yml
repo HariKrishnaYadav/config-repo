@@ -2,6 +2,6 @@ account:
   port: 8100
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/bank-user
+    url: jdbc:mysql://localhost:3306/bank
 server:
   port: 8400
